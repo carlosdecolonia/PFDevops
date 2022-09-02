@@ -25,5 +25,5 @@ elemento4 = driver.find_element(By.XPATH, "//*[@id='TitleBox--_Ticket_Create_htm
 elemento4.send_keys("Selenium RT")  
 
 #crear ticket
-driver.find_element(By.XPATH, "//*[@id='SubmitTicket']/div[2]/input") .click() 
+driver.find_element(By.XPATH, "//*[@id='SubmitTicket']/div[2]/input").click() 
 driver.close()
